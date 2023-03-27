@@ -1,0 +1,142 @@
+* {
+padding:0;
+margin:0;
+box-sizing:border-box
+}
+body{
+	font-size:16px;
+	font-family: 'Raleway', sans-serif;
+}
+.contact-sec {
+	
+}
+.contact-container {
+	width:80%;
+	margin:auto;
+}
+.contact-title {
+	margin-top:3rem;
+	text-align:center;
+}
+.contact-title h2 {
+	font-size:2rem;
+	font-weight:600;
+	color:#222;
+	margin:0.7rem;
+}
+.contact-line {
+	background-color:#ff7f5d;
+	height:3px;
+	width:100px;
+	text-align:center;
+	display: inline-block;
+	margin-bottom:0.7rem;
+}
+.contact-title p {
+	font-size:0.8rem;
+	font-weight:400;
+	color:#222;
+}
+.contact-map {
+	margin-top:2rem;
+}
+.contact-col {
+	display:flex;
+	flex-wrap:wrap;
+	
+	margin-top:2.5rem;
+}
+.contact-col-left {
+	width:35%;
+}
+.contact-col-right {
+	width:65%;
+}
+.contact-location i , .contact-email i, .contact-call i {
+	float:left;
+	padding-left:1rem;
+	padding-top:0.2rem;
+	font-size:1.6rem;
+	color:#ff7f5d;
+	borde-radius:5px;
+	
+}
+.contact-location,.contact-email {
+	margin-bottom:2.6rem;
+}
+
+.contact-col-left p {
+	
+	font-size:0.9rem;
+	font-weight:400;
+	margin-bottom:5px;
+	color:#222;
+	padding-left:3.5rem;
+}
+.contact-col-left h4 {
+	
+	font-size:1rem;
+	font-weight:700;
+	margin-bottom:5px;
+	color:#000;
+	padding-left:3.5rem;
+	
+}
+.contact-name-email {
+	display:flex;
+	gap:3%;
+}
+.conatct-name {
+	width:50%;
+}
+.contact-mail {
+	width:50%;
+}
+.form-name,.form-mail {
+	width:100%;
+	padding:0.1rem;
+}
+input.form-name,input.form-mail {
+	font-size:0.8rem;
+	padding:0.6rem 0.4rem;
+}
+.contact-subject {
+	margin:1.2rem 0;
+}
+.form-subject ,.form-msg{
+	width:100%;
+	padding:0.6rem 0.4rem;
+}
+.contact-submit {
+	margin-top:1rem;
+	text-align:center;
+}
+.contact-sbt-btn {
+	font-size:16px;
+	padding:12px 25px;
+	background:#ff7f5d;
+	color:#fff;
+	border-radius:4px;
+	border:0;
+}
+
+@media (max-width:767px){
+
+	.contact-col-left{
+	 width:100%;
+}
+.contact-col-right{
+	width:100%;	
+	margin-top:3rem;
+}
+.contact-name-email {
+	display:flex;
+	gap:1%;
+}
+.conatct-name {
+	width:50%;
+}
+.contact-mail {
+	width:50%;
+}
+}
